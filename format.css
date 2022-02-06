@@ -1,0 +1,27 @@
+li {list-style-type: none;
+    font-size: 16pt;
+    }
+    .mail {
+    /*controls background area and location of input area*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 400px;
+    background : 
+    rgb(216, 248, 235);
+    border: 1px soild 
+    silver;
+    }
+    .mail h2 {
+    margin-left: 38px;
+    }
+    input {
+    font-size: 20pt;
+    }
+    /*changes background color of input box*/
+    input:focus, textarea:focus{
+    background-color: 
+    rgb(228, 239, 253);
+    }
+    input submit {
+    font-size: 12pt;
+    }

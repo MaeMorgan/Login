@@ -1,0 +1,36 @@
+<!---->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login Form</title>
+    <!--links the formating for the page-->
+    <link rel='stylesheet' href='format.css' type='text/css' />
+</head>
+<body onload='document.form1.text1.focus()'>
+    <div class="mail">
+        <!--creates a form for the inputs-->
+        <form name="form1" action="#">
+            <!--creates an unordered list-->
+            <ul>
+                <!--creates a list item for name input along with input box-->
+                <li>Name:<input type='text' name='text1'/></li>
+                <!--forces a space in the list-->
+                <li>&nbsp;</li>
+                <!--creates a list item for badge input along with the input box-->
+                <li>Badge Number:<input type='text' name='text2'/></li>
+                <li>&nbsp;</li>
+                <!--creates a submit button for the inputs-->
+                <li class="submit"><input type="submit" name="submit" value="Submit" onclick="Username(document.form1.text1,3,20);badgeNumber(document.form1.text2,1,3)"/></li>
+                <li>&nbsp;</li>
+                <!--creates a spot for the alert to appear-->
+                <li id="alert"></li>
+                <li>&nbsp;</li>
+                <li>Users:</li>
+                <li id="name"></li>
+            </ul>
+        </form>
+    </div>
+    <!--loads the external jaavascript-->
+    <script src="code.js"></script>
+</body>
+</html>
